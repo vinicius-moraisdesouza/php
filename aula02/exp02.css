@@ -1,0 +1,20 @@
+
+h1{
+    background-color: aqua;
+}
+.stilo{
+    background-color: yellow;
+}
+.conteudo{
+    background-color: blue;
+    height: 30px;
+}
+.conteudo p{
+    background-color: red;
+}
+.conteudo #txt{
+    font-size: 50px;
+}
+p{
+    background-color: bisque;
+}
