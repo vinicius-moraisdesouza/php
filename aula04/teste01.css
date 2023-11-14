@@ -1,0 +1,73 @@
+.caixa1{
+    background-color:red;
+    height: 80px;
+    border: black 2px solid;
+}
+
+#quadrado01{
+    background-color: blue;
+    margin-left: 580px;
+    margin-right: 580px;
+    margin-top: 30px;
+}
+
+.caixa2{
+    background-color: yellowgreen;
+    height: 500px;
+    border: black 2px solid;
+    margin-bottom: 10px;
+}
+
+#quadrado02{
+    margin-top: 10px;
+    background-color: green;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#quadrado03{
+    margin-top: 10px;
+    background-color: purple;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 1200px;
+    text-align: center;
+}
+
+#quadrado04{
+    margin-top: 10px;
+    background-color: gray;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 1170px;
+    text-align: center;
+}
+
+#quadrado05{
+    margin-top: 10px;
+    background-color: brown;
+    height: 45px;
+    margin-left: 24%;
+    margin-right: 55%;
+    text-align: center;
+}
+#quadrado06{
+    margin-top: 10px;
+    background-color:salmon;
+    height: 60px;
+    margin-left: 47%;
+    margin-right: 30%;
+    padding-left: 50px;
+}
+
+.caixa3{
+    background-color:chocolate;
+    height: 45px;
+    margin-top: 10px; 
+}
+#quadrado07{
+    text-align: center;
+        background-color: red;
+        margin-top: 0px;   
+}
