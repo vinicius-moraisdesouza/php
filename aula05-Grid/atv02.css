@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    margin: 10px;
+}
+
+.box{
+    background-color: yellow;
+    height: 780px;
+    width: auto;    
+    display: grid;
+    grid-template-areas: "titulos titulos titulos"
+                          "menuL conteudo menuR"
+                           "rodape rodape rodape";
+    grid-template-rows: 100px 1fr 90px;
+    grid-template-columns: 200px 1fr 150px;
+
+
+}
+
+.titulo{
+    background-color: red;
+    grid-area: titulos;
+    
+}
+
+
+
+.menuL{
+    background-color: brown;
+    grid-area: menuL;
+    text-align: center;
+}
+
+ .menuL .box1{
+    grid-area: c1;
+}
+
+.menuL .box1{
+    grid-area: c2;
+}
+
+.menuL .box1{
+    grid-area: c3;
+}
+
+
+.conteudo{
+      background-color: green;
+      grid-area: conteudo;
+      text-align: center;
+
+}
+
+.menuR{
+    background-color: pink;
+    grid-area: menuR;
+    text-align: center;
+}
+
+.rodape{
+    background-color: orange;
+    grid-area: rodape;
+    text-align: center;
+}
+
+
+.img{
+    width: 90px;
+    margin-left: 40px;
+    margin-top: -100px;
+    margin-bottom: 230px;
+    border: 2px solid blue;
+   
+}
+
+.img1{
+    width: 90px;
+    margin-left: 1200px;
+    margin-top: -95px;
+    margin-bottom: 230px;
+    border: 2px solid blue;
+   
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 70px;
+}
