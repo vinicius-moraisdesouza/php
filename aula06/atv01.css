@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+.box{
+    background-color: blue;
+    height: 650px;
+    width: auto;
+    border: 15px solid white;
+    display: grid;
+    grid-template-areas: "Header Header Header"
+                         "Menu Main Right"
+                         "Menu Footer Footer";
+
+    grid-template-rows: 200px 20fr 200px;
+    grid-template-columns: 300px 20fr 550px ;
+    gap: 10px;                 
+}
+.Header{
+    background-color: rebeccapurple;
+    grid-area: Header;
+    text-align: center;
+}
+.Menu{
+    background-color: brown;
+    grid-area: Menu;
+}
+.Main{
+    background-color: green;
+    grid-area: Main;
+}
+.Right{
+    background-color: orange;
+    grid-area: Right;
+}
+.Footer{
+    background-color: blueviolet;
+    grid-area: Footer;
+}

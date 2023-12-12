@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    margin: 10px;
+}
+.box{
+    background-color:blue;
+    height: 650px;
+    width: auto;
+    border: 15px solid white;
+    display: grid;
+    padding: 10px;
+    grid-template-areas: "quadrado1 quadrado1 quadrado2"
+                         "quadrado3 quadrado4 quadrado5"
+                         "quadrado6 quadrado7 quadrado8";
+
+    grid-template-rows: 200px 20fr 200px;
+    grid-template-columns: 500px 20fr 550px ;
+    gap: 10px;            
+}
+
+.quadrado1{
+    background-color: cyan;
+    grid-area: quadrado1;
+    text-align: center;
+}
+.quadrado2{
+    background-color: cyan;
+    grid-area: quadrado2;
+}
+.quadrado3{
+    background-color: cyan;
+    grid-area: quadrado3;
+}
+.quadrado4{
+    background-color: cyan;
+    grid-area: quadrado4;
+}
+.quadrado5{
+    background-color: cyan;
+    grid-area: quadrado5;
+}
+.quadrado6{
+    background-color:cyan ;
+    grid-area: quadrado6;
+}
+.quadrado7{
+    background-color: cyan;
+    grid-area: quadrado7;
+}
+.quadrado8{
+    background-color: cyan;
+    grid-area: quadrado8;
+}
+.quadrado9{
+    background-color: cyan;
+    grid-area: quadrado9;
+}
