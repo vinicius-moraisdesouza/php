@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+    margin: 10px;
+}
+.box{display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+   
+}
+.box > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px ;
+    font-size: 30px;
+}
+.quadrado8 {
+    grid-area: 1 / 2 / 5 / 6;
+}

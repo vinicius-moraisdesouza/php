@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+.box{
+    background-color: blue;
+    height: 650px;
+    width: auto;
+    border: 15px solid white;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                         "ce cp cd"
+                         "rodape rodape rodape";
+
+    grid-template-rows: 100px 1fr 90px;
+    grid-template-columns: 200px 1fr 150px;      
+}
+.topo{
+    background-color: rebeccapurple;
+    grid-area: topo;
+    text-align: center;
+}
+.ce{
+    background-color: brown;
+    grid-area: ce;
+}
+.cp{
+    background-color: green;
+    grid-area: ccp;
+}
+.cd{
+    background-color: orange;
+    grid-area: cd;
+}
+.rodape{
+    background-color: blueviolet;
+    grid-area: rodape;
+}

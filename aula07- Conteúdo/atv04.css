@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+.cont{
+     background-color: aqua;
+     height: 700px;
+     width: auto;
+     display: grid;
+     grid-template-areas: "topo topo topo"
+                        "ce cp cd"
+                        "ro ro ro";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 100px;
+
+}
+.topo{
+    grid-area: topo;
+    display: grid;
+    grid-template-areas: "pr1 pr2 pr3 pr4";
+    }
+.topo .pr1{
+    background-color: wheat;
+    grid-area: pr1;
+}
+.topo .pr2{
+    background-color: fuchsia;
+    grid-area: pr2;
+}
+.topo .pr3{
+    background-color: gold;
+    grid-area: pr3;
+}
+.topo.pr4{
+    background-color: beige;
+    grid-area: pr4;
+}
+
+
+
+.ce{
+    background-color: blueviolet;
+    grid-area: ce;
+}
+.cp{
+    background-color:chocolate ;
+    grid-area: cp;
+}
+.cd{
+    background-color: bisque;
+    grid-area: cd;
+    display:grid;
+    gap: 5px;
+    grid-template-areas: "cd1 cd2"
+                            "cd3 cd4"
+                            "cd5 cd6"
+                            "cd7 cd8";
+    
+}
+.cd .cd1{
+    background-color: blue;
+    grid-area: cd1;
+}
+.cd .cd1 p{
+    background-color: blueviolet;
+}
+.cd .cd2{
+    background-color: blue;
+    grid-area: cd2;
+
+}
+.cd .cd3{
+    background-color: blue;
+    grid-area: cd3;
+}
+.cd .cd4{
+    background-color: blue;
+    grid-area: cd4;
+
+}
+.cd .cd5{
+    background-color: blue;
+    grid-area: cd5;
+
+}
+.cd .cd6{
+    background-color: blue;
+    grid-area: cd6;
+
+
+}
+.cd .cd6 p{
+    background-color:hotpink ;
+}
+.cd .cd7{
+    background-color: blue;
+    grid-area: cd7;
+
+}
+.cd .cd8{
+    background-color: blue;
+    grid-area: cd8;
+
+}
+
+.ro{
+    background-color: forestgreen;
+    grid-area: ro;
+
+}
