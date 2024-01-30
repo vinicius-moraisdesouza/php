@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+.box{
+    height: 650px;
+    width: auto;
+    border: 15px solid white;
+    display: grid;
+    grid-template-areas: "Header  Header"
+                         "Main  lateral"
+                         "rodape rodape";
+
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 700px 1fr 550px ;               
+}
+
+.Header{
+    background-color: red;
+    grid-area: Header;
+    text-align: center;
+}
+.lateral{
+    background-color: violet;
+    grid-area: lateral;
+}
+.Main{
+    background-color: yellow;
+    grid-area: Main;
+    display: flex;
+    flex-direction: column;
+}
+.rodape{
+    background-color: burlywood ;
+    grid-area: rodape;
+    display: flex;
+}
+.div1, .div2, .div3{
+    width: 100%;
+    height: 150px;
+}
+.div1{
+    background-color: aqua;
+}
+.div2{
+    background-color: chartreuse;
+}
+.div3{
+    background-color: gold;
+}
+.p1, .p3{
+    width: 100%;
+    height: 150px;
+}
+.p1{
+    background-color: chartreuse;
+}
+.p2{
+    background-color: olive;
+    width: 190%;
+    height: 150px;
+}
+.p3{
+    background-color: chartreuse;
+}
+@media screen and (max-width: 992px){
+    .prin{
+        grid-template-columns: 100%;
+        grid-template-areas: "div1" "div2" "div3";
+    }
+    .div3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .p1, .p2, .p3{
+        width: 25%;
+        background-color: antiquewhite;
+    }
+    .p2{
+        width: 50%;
+        margin: 0;
+        background-color: brown;
+    }
+    .p3{
+        margin: 0;
+    }
+}
