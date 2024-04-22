@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 150px;
+    background-color: aqua;
+
+}
+header > img{
+    height: 150px;
+    width: 150px;
+}
+
+header > nav{
+    display: flex;
+    width: 400px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav > a:link{
+    text-decoration: none;
+}
+header nav > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.main{
+    display: flex;
+    height: 500px;
+}
+.main > aside{
+    flex: 1;
+    background-color: blueviolet;
+}
+.main > section{
+    flex: 2;
+   background-color: beige;
+}
+.main > article{
+    flex: 3;
+}
+article form input [type=number]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+article form input[type= submit]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+}
+table, th, td {
+    height: 70px;
+    width: 50px;
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin-top: 50px;
+    
+}
+table, td, th {
+    background-color: pink;
+    text-align: center;
+}
+table, td {
+    background-color: pink;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 500px;
+    display: grid;
+    grid-template-areas: "b1 b2";
+    grid-template-rows: 500px 500px;
+    margin-top: 2%;
+}
+  .box1{
+    grid-area: b1;
+    background-color: rgb(157, 185, 230);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .box2{
+    grid-area: b2;
+    background-color: rgb(175, 131, 216);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .caixa{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .caixa2{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+
